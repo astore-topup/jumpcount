@@ -26,3 +26,14 @@ h1 {
   margin-top: 20px;
   font-weight: bold;
 }
+
+#toggleCamera {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
