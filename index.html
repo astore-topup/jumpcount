@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jump Rope Counter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Penghitung Lompatan</h1>
+  <video id="video" autoplay muted></video>
+  <div id="counter">Lompatan: 0</div>
+
+  <!-- TensorFlow dan Pose Detection -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.20.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/pose-detection"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

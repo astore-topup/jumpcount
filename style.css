@@ -1,0 +1,28 @@
+body {
+  background-color: #e6f2ff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #007acc;
+  margin-top: 20px;
+}
+
+#video {
+  width: 90%;
+  max-width: 640px;
+  border-radius: 15px;
+  margin-top: 20px;
+  transform: scaleX(-1); /* Mirror video */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#counter {
+  font-size: 32px;
+  color: #004b8d;
+  margin-top: 20px;
+  font-weight: bold;
+}
